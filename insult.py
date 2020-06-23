@@ -6,7 +6,8 @@ import os
 # launchctl unload ~/Library/LaunchAgents/insults.plist
 
 if __name__ == "__main__":
-    insult_file_name = "insults.txt"
+    dirname = os.path.dirname(__file__)
+    insult_file_name = os.path.join(dirname, "insults.txt")
     insult_file = open(insult_file_name, "r")
     insults = [line for line in insult_file]
 

@@ -7,10 +7,10 @@
     <key>ProgramArguments</key>
     <array>
         <string>/usr/bin/python</string>
-        <string>/Users/zacharypinto/insult.py</string>
+        <string>/Users/zacharypinto/AprilFools/insult.py</string>
     </array>
     <key>StandardErrorPath</key>
-    <string>/var/log/python_script.error</string>
+    <string>/Users/zacharypinto/AprilFools/python_script.error</string>
     <key>KeepAlive</key>
     <true/>
 </dict>
